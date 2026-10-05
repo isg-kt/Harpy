@@ -14,5 +14,7 @@ templates_path: list[str] = ["_templates"]
 exclude_patterns: list[str] = []
 
 # Html Backend Configuration
-html_theme: str = "alabaster"
+html_theme: str = "piccolo_theme"
+html_title: str = "Harpy Programming Language"
 html_static_path: list[str] = ["_static"]
+html_css_files: list[str] = ["root.css", "links.css"]
