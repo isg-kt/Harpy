@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6
+        with:
+          lfs: true
 
       - name: Set Up Python Environment
         uses: actions/setup-python@v7
