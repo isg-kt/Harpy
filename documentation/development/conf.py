@@ -5,7 +5,11 @@ author: str = "Ismael Moreira"
 release: str = "0.1.0-alpha"
 
 # Sphinx Configuration
-extensions: list[str] = ["sphinx_copybutton", "sphinxcontrib.mermaid"]
+extensions: list[str] = [
+    "sphinx_copybutton",
+    "sphinxcontrib.mermaid",
+    "sphinx.ext.mathjax",
+]
 templates_path: list[str] = ["_templates"]
 exclude_patterns: list[str] = []
 
