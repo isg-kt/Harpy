@@ -1,10 +1,11 @@
-Harpy documentation
-===================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Wellcome to Harpy
+=================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
+
+   Architecture Decision Records <architecture-decision-records/index>
+   Contributing to Harpy <contributing/index>
+   Language Specification <language-specification/index>
