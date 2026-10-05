@@ -5,7 +5,7 @@ author: str = "Ismael Moreira"
 release: str = "0.1.0-alpha"
 
 # Sphinx Configuration
-extensions: list[str] = []
+extensions: list[str] = ["sphinx_copybutton"]
 templates_path: list[str] = ["_templates"]
 exclude_patterns: list[str] = []
 
