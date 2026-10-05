@@ -3,5 +3,9 @@ __pycache__/
 .venv/
 venv/
 
+# Git-Related Files
+*.diff
+*.log
+
 # Build Directories
 .build/
